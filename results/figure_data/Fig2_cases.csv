@@ -1,0 +1,10 @@
+cls,case,stem,dice,null_dice,score,lesion_area
+glioma,representative,brisc2025_test_00221_gl_sa_t1,0.0,0.0272,-0.0272,0.0198
+glioma,best,brisc2025_test_00244_gl_sa_t1,0.7297,0.0,0.7297,0.0316
+glioma,worst,brisc2025_test_00180_gl_sa_t1,0.0,0.2697,-0.2697,0.0048
+meningioma,representative,brisc2025_test_00520_me_sa_t1,0.5169,0.0835,0.4334,0.014
+meningioma,best,brisc2025_test_00274_me_ax_t1,0.8461,0.0337,0.8123,0.0491
+meningioma,worst,brisc2025_test_00552_me_sa_t1,0.0664,0.2748,-0.2084,0.0059
+pituitary,representative,brisc2025_test_00701_pi_ax_t1,0.0,0.0,0.0,0.0067
+pituitary,best,brisc2025_test_00934_pi_sa_t1,0.3676,0.0148,0.3528,0.0104
+pituitary,worst,brisc2025_test_00982_pi_sa_t1,0.0,0.1089,-0.1089,0.0018

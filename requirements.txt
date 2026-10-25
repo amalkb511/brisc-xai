@@ -1,0 +1,12 @@
+# Lower bounds from the original project file (requirements (1).txt, 16 Sep 2026).
+# The runs reported in the paper used TensorFlow 2.21.0 (see results/revision/A10_env.txt).
+tensorflow>=2.15
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10
+scikit-learn>=1.3
+opencv-python-headless>=4.8
+matplotlib>=3.7
+# Added for scripts that import them (not in the original file):
+pillow          # 01_build_dataset.py, A2_near_duplicate_audit.py
+imagehash       # A2_near_duplicate_audit.py (phash_dir)

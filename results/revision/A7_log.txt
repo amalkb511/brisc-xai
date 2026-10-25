@@ -1,0 +1,36 @@
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1792322905.834597   41413 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1792322905.904510   41413 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1792322908.211598   41413 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+W0000 00:00:1792322910.228629   41413 gpu_bfc_allocator.cc:47] Overriding orig_value setting because the TF_FORCE_GPU_ALLOW_GROWTH environment variable is set. Original config value was false.
+I0000 00:00:1792322910.230477   41413 gpu_device.cc:2043] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 20833 MB memory:  -> device: 0, name: NVIDIA L4, pci bus id: 0000:00:03.0, compute capability: 8.9
+layer geometry verified: {'se3': 56, 'se4': 28, 'relu4': 28, 'head_relu': 14, 'pool4': 14}
+XAI set: 860 images | {'meningioma': 306, 'pituitary': 300, 'glioma': 254}
+/usr/local/lib/python3.13/dist-packages/keras/src/models/functional.py:241: UserWarning: The structure of `inputs` doesn't match the expected structure.
+Expected: ['keras_tensor']
+Received: inputs=Tensor(shape=(8, 224, 224, 3))
+  warnings.warn(msg)
+I0000 00:00:1792322917.601455   41413 cuda_dnn.cc:461] Loaded cuDNN version 92700
+  Baseline__seed42 done
+  Baseline__seed123 done
+  Baseline__seed2024 done
+  Baseline__seed7 done
+  Baseline__seed1337 done
+  CNN_GAP__seed42 done
+  CNN_GAP__seed123 done
+  CNN_GAP__seed2024 done
+  CNN_GAP__seed7 done
+  CNN_GAP__seed1337 done
+  CNN_GAP_BN__seed42 done
+  CNN_GAP_BN__seed123 done
+  CNN_GAP_BN__seed2024 done
+  CNN_GAP_BN__seed7 done
+  CNN_GAP_BN__seed1337 done
+  Proposed__seed42 done
+  Proposed__seed123 done
+  Proposed__seed2024 done
+  Proposed__seed7 done
+  Proposed__seed1337 done
+ecrit /content/drive/MyDrive/classification_task/repro/A7_threshold.csv

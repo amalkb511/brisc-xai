@@ -1,0 +1,5 @@
+arch,role,n_obs,frac_multi_component,n_components_med,n_components_max,dist_argmax_vs_centroid_med,dist_argmax_vs_centroid_q3,peak_in_lesion_frac,top_area_mean
+Baseline,deep,1500,0.4207,1.0,7.0,0.012,0.0744,0.02,0.0006
+CNN_GAP,deep,1493,0.3818,1.0,8.0,0.0112,0.0653,0.04956463496316142,0.0012
+CNN_GAP_BN,deep,1500,0.5793,2.0,16.0,0.0243,0.1138,0.019333333333333334,0.0014
+Proposed,deep,1500,0.5593,2.0,14.0,0.0243,0.1035,0.018666666666666668,0.0012

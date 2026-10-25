@@ -1,0 +1,34 @@
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1792328754.025288   66085 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1792328756.378924   66085 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+W0000 00:00:1792328758.286827   66085 gpu_bfc_allocator.cc:47] Overriding orig_value setting because the TF_FORCE_GPU_ALLOW_GROWTH environment variable is set. Original config value was false.
+layer geometry verified: {'se3': 56, 'se4': 28, 'relu4': 28, 'head_relu': 14, 'pool4': 14}
+XAI set: 860 images | {'meningioma': 306, 'pituitary': 300, 'glioma': 254}
+/usr/local/lib/python3.13/dist-packages/keras/src/models/functional.py:241: UserWarning: The structure of `inputs` doesn't match the expected structure.
+Expected: ['keras_tensor']
+Received: inputs=Tensor(shape=(8, 224, 224, 3))
+  warnings.warn(msg)
+  CNN_GAP__seed42 done (0.4 min)
+  CNN_GAP__seed123 done (0.4 min)
+  CNN_GAP__seed2024 done (0.5 min)
+  CNN_GAP__seed7 done (0.6 min)
+  CNN_GAP__seed1337 done (0.7 min)
+                 n_degenerate    n
+seed true_class                   
+7    glioma                 0  254
+     meningioma             0  306
+     pituitary              5  300
+42   glioma                 0  254
+     meningioma             7  306
+     pituitary              2  300
+123  glioma                 0  254
+     meningioma             0  306
+     pituitary              0  300
+1337 glioma                 0  254
+     meningioma           217  306
+     pituitary              0  300
+2024 glioma                 0  254
+     meningioma             4  306
+     pituitary              0  300
+ecrit /content/drive/MyDrive/classification_task/repro/A5_per_image.csv /content/drive/MyDrive/classification_task/repro/A5_summary.csv

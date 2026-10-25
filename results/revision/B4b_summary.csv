@@ -1,0 +1,5 @@
+arch,role,n_obs,dist_peak_lesion_med,dist_peak_lesion_q1,dist_peak_lesion_q3,ref_dist_random_lesion_mean,dist_peak_meanlesion_med,dist_lesion_meanlesion_med,frac_peak_closer_to_meanlesion,peak_in_lesion_frac,top_frac_in_lesion_mean,top_frac_in_brain_mean,peak_depth_med,ref_depth_lesion_med,ref_depth_random_mean,frac_peak_rim,top_area_mean,peak_y_sd,peak_x_sd,frac_degenerate
+Baseline,deep,1500,0.3049,0.1891,0.4073,0.3129,0.329,0.0837,0.446,0.028666666666666667,0.0172,0.8349,0.2142,0.2134,0.3255,0.4813,0.0006,53.4046,50.5214,0.0
+CNN_GAP,deep,1493,0.376,0.3146,0.497,0.3128,0.4107,0.0828,0.4206,0.04018754186202277,0.0447,0.5875,0.1107,0.2135,0.3255,0.7066,0.0012,64.5894,54.9112,0.0047
+CNN_GAP_BN,deep,1500,0.2676,0.1941,0.3248,0.3129,0.2689,0.0837,0.4187,0.024,0.019,0.9838,0.3816,0.2134,0.3255,0.1707,0.0014,45.8147,44.6188,0.0
+Proposed,deep,1500,0.2862,0.1885,0.3674,0.3129,0.2945,0.0837,0.4007,0.025333333333333333,0.0164,0.9829,0.3439,0.2134,0.3255,0.2293,0.0012,51.2278,41.7131,0.0

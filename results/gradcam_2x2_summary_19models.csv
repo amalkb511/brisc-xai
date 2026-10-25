@@ -1,0 +1,13 @@
+target,policy,true_class,dice,auc,degenerate_frac,mean_confidence,n,protocol_hash
+logit,float32,glioma,0.0655,0.5704,0.0,0.9048,4826,6f82d66818c0
+logit,float32,meningioma,0.1988,0.6945,0.0019,0.8647,5814,6f82d66818c0
+logit,float32,pituitary,0.0141,0.4639,0.0012,0.9874,5700,6f82d66818c0
+logit,mixed_float16,glioma,0.0655,0.5703,0.0,0.9048,4826,6f82d66818c0
+logit,mixed_float16,meningioma,0.1988,0.6945,0.0019,0.8647,5814,6f82d66818c0
+logit,mixed_float16,pituitary,0.0141,0.464,0.0012,0.9874,5700,6f82d66818c0
+softmax,float32,glioma,0.0593,0.5833,0.0734,0.9048,4826,6f82d66818c0
+softmax,float32,meningioma,0.181,0.7036,0.0327,0.8647,5814,6f82d66818c0
+softmax,float32,pituitary,0.0136,0.4808,0.013,0.9874,5700,6f82d66818c0
+softmax,mixed_float16,glioma,0.0615,0.5771,0.202,0.9048,4826,6f82d66818c0
+softmax,mixed_float16,meningioma,0.1912,0.6974,0.0903,0.8647,5814,6f82d66818c0
+softmax,mixed_float16,pituitary,0.0122,0.4842,0.0981,0.9874,5700,6f82d66818c0

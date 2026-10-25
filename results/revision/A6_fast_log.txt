@@ -1,0 +1,37 @@
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1792320986.477639   33309 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1792320986.548482   33309 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1792320988.884256   33309 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+W0000 00:00:1792320990.882298   33309 gpu_bfc_allocator.cc:47] Overriding orig_value setting because the TF_FORCE_GPU_ALLOW_GROWTH environment variable is set. Original config value was false.
+I0000 00:00:1792320990.884154   33309 gpu_device.cc:2043] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 20833 MB memory:  -> device: 0, name: NVIDIA L4, pci bus id: 0000:00:03.0, compute capability: 8.9
+layer geometry verified: {'se3': 56, 'se4': 28, 'relu4': 28, 'head_relu': 14, 'pool4': 14}
+XAI set: 860 images | {'meningioma': 306, 'pituitary': 300, 'glioma': 254}
+inputs charges en 0.1 min
+/usr/local/lib/python3.13/dist-packages/keras/src/models/functional.py:241: UserWarning: The structure of `inputs` doesn't match the expected structure.
+Expected: ['keras_tensor']
+Received: inputs=Tensor(shape=(8, 224, 224, 3))
+  warnings.warn(msg)
+I0000 00:00:1792320998.421481   33309 cuda_dnn.cc:461] Loaded cuDNN version 92700
+  Baseline__seed42 done  (0.2 min ecoules)
+  Baseline__seed123 done  (0.2 min ecoules)
+  Baseline__seed2024 done  (0.2 min ecoules)
+  Baseline__seed7 done  (0.3 min ecoules)
+  Baseline__seed1337 done  (0.3 min ecoules)
+  CNN_GAP__seed42 done  (0.3 min ecoules)
+  CNN_GAP__seed123 done  (0.4 min ecoules)
+  CNN_GAP__seed2024 done  (0.4 min ecoules)
+  CNN_GAP__seed7 done  (0.4 min ecoules)
+  CNN_GAP__seed1337 done  (0.4 min ecoules)
+  CNN_GAP_BN__seed42 done  (0.5 min ecoules)
+  CNN_GAP_BN__seed123 done  (0.5 min ecoules)
+  CNN_GAP_BN__seed2024 done  (0.6 min ecoules)
+  CNN_GAP_BN__seed7 done  (0.7 min ecoules)
+  CNN_GAP_BN__seed1337 done  (0.8 min ecoules)
+  Proposed__seed42 done  (0.9 min ecoules)
+  Proposed__seed123 done  (1.0 min ecoules)
+  Proposed__seed2024 done  (1.1 min ecoules)
+  Proposed__seed7 done  (1.2 min ecoules)
+  Proposed__seed1337 done  (1.3 min ecoules)
+ecrit /content/drive/MyDrive/classification_task/repro/A6_null_convergence_fast.csv
