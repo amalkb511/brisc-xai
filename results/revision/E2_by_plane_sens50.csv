@@ -1,0 +1,13 @@
+arch,plane,correct,dice,null_dice,dice_minus_null,auc_intrabrain,n_slices
+Baseline,axial,0.5211,0.0326,0.0233,0.0094,0.5433,213
+Baseline,coronal,0.0183,0.0288,0.021,0.0078,0.5137,252
+Baseline,sagittal,0.1678,0.008,0.0066,0.0014,0.4683,367
+CNN_GAP,axial,0.2629,0.0508,0.0108,0.0399,0.618,213
+CNN_GAP,coronal,0.281,0.0538,0.0191,0.0346,0.6265,252
+CNN_GAP,sagittal,0.3253,0.0675,0.0157,0.0517,0.6101,367
+CNN_GAP_BN,axial,0.2648,0.0237,0.0244,-0.0007,0.5035,213
+CNN_GAP_BN,coronal,0.3175,0.0602,0.0635,-0.0033,0.6267,252
+CNN_GAP_BN,sagittal,0.3678,0.015,0.011,0.004,0.5038,367
+Proposed,axial,0.1596,0.0137,0.019,-0.0053,0.4939,213
+Proposed,coronal,0.2817,0.017,0.0331,-0.0161,0.4859,252
+Proposed,sagittal,0.2343,0.014,0.024,-0.0101,0.4915,367

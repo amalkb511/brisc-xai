@@ -1,0 +1,9 @@
+arch,correct,dice,null_dice,dice_minus_null,auc_intrabrain,n_rows
+Baseline,False,0.0161,0.0142,0.0018,0.4912,5630
+Baseline,True,0.0096,0.0126,-0.003,0.4866,3180
+CNN_GAP,False,0.0564,0.0149,0.0415,0.6422,5352
+CNN_GAP,True,0.0324,0.0081,0.0243,0.594,3458
+CNN_GAP_BN,False,0.0459,0.0292,0.0167,0.6371,3928
+CNN_GAP_BN,True,0.0206,0.019,0.0016,0.5375,4882
+Proposed,False,0.0192,0.0141,0.0051,0.5386,5070
+Proposed,True,0.0186,0.0186,0.0001,0.522,3740

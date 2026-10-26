@@ -1,0 +1,5 @@
+control,auc_intrabrain
+perfect_mask,1.0
+gaussian_on_lesion,0.9991001726151185
+uniform_random,0.5015878012598468
+anti_lesion,0.0
