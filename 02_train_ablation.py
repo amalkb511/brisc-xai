@@ -10,8 +10,9 @@ Two protocol points that are not incidental:
     RandomBrightness is ADDITIVE, and on an MRI with a hard zero floor an
     additive offset is clipped asymmetrically: the negative half of the range is
     truncated for background pixels and the positive half is not. The measured
-    whole-image shift (+0.0218) matches the analytic prediction
-    0.583 x (E[max(0, 0.0042+u)] - 0.0042) = +0.0207 to within 5%. Because a
+    whole-image shift of the additive layer is about +0.015 (Keras RandomBrightness(0.15, value_range=(0, 1)),
+    1,000 training images, five draws; a simulation on the 5,000 images of the training split gives +0.0146), while the
+    multiplicative operator shifts it by 0.000. Because a
     global-average-pooling head cannot spatially discount a DC offset while a
     Flatten head can, additive brightness costs the GAP variants 3.6-6.0 points
     of accuracy and the Flatten baseline only 0.9, which is enough to invert the
